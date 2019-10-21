@@ -113,11 +113,8 @@ text-align: center;
   margin-bottom: 0 auto;
 
 }
-#gap .w3-center
+#contact .h4
 {
 
-     padding-top: 20px;
-      margin-top: 1000px;
-      color: rgb(236, 20, 20);
-      text-align: center;
+  color: aquamarine;;
 }
