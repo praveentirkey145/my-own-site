@@ -1,17 +1,17 @@
-  #navs
+  /*#navs
   {
-    background-color:rgb(5, 4, 4); 
-      background-image:url('navoa.jpg');
+    background-color:#7bc2e0;
+     
       padding: 0px auto;
       background-position: center; 
       background-repeat: no-repeat; 
      background-size: cover;
-  }
-/*@media (min-width: 320px) {
+  }*/
+@media (min-width: 320px) {
   #navs
   {
     
-    background-image:url('wallpaper.jpg');
+    background-image:url('navoa.jpg');
       padding: 0px auto;
       background-position: center; 
     background-repeat: no-repeat; 
@@ -21,25 +21,26 @@
   }}
   @media (min-width: 1024px) {
     #navs{
-      
-      background-color:rgb(5, 4, 4); 
-      background-image:url('navoa.jpg');
+      background: none;
+      background-color:#7bc2e0;
+     
       padding: 0px auto;
       background-position: center; 
       background-repeat: no-repeat; 
      background-size: cover;
       
     }
-    }*/
+    }
 
     .jumbotron {
       background: none;
     }
+    @media (min-width: 320px) {
     #space
     {
         padding-top: 20px;
         margin-top: 50px;
-        background-image:url('wallpaper.jpg');
+        background-image:url('nss.png');
         background-position: center; 
         background-repeat: no-repeat; 
         background-size: cover;
@@ -47,7 +48,18 @@
         text-align: center;
       
         
-    }
+    }}
+    @media (min-width: 1024px) {
+      #space{
+      padding-top: 20px;
+      margin-top: 50px;
+      background-image:url('navoa.jpg');
+      background-position: center; 
+      background-repeat: no-repeat; 
+      background-size: cover;
+      color: rgb(0, 0, 0);
+      text-align: center;
+    }}
   
 #ba
 {
