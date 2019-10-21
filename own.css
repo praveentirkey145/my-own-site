@@ -88,7 +88,7 @@ text-align: center;
 
 #footer
 {
-  background-color: rgb(0, 171, 223);
+  background-color: #34a7d8;
   color: aliceblue;
 }
 #footer .social-links
@@ -107,4 +107,9 @@ text-align: center;
 {
   text-align: center;
 }
+#H2
+{
+  
+  margin-bottom: 0 auto;
 
+}
