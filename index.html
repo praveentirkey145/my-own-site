@@ -52,7 +52,7 @@
                     <h4 >Welcome to our site super laundry here you can book our Services and clean up your clothes at minimum cost </h3>
                     <hr class="my-4">
                     <p>Our services only avilable on Ranchi right now as per demand we will expand our services </p>
-                    <a id="learn" class="btn btn-danger btn-lg " href="contactus.html" role="button">Book Now</a>
+                    <a id="buttonReservation" class="btn btn-danger btn-lg " role="button">Book Now</a>
                     </div>
                       
                   </div>                  
@@ -96,6 +96,166 @@
 
   </div>
 </div>
+
+<!-- reserve modal -->
+<!-- Modal -->
+<div class="modal fade " id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg " role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-center" id="exampleModalLabel" ><strong>Book Our Services</strong></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+           <!-- Start Contact Section -->
+            <div class="bg-light ">
+            
+ <div class="container wow  fadeInUp delay-05s" id="contact">
+    <div class="content" style="max-width:600px">
+      <h4 class="text-center "><b>Book Our Services</b></h4>
+  
+      <script type="text/javascript">var submitted=false;</script>
+      
+      <!--Update the URL for thank you page on form submit -->
+      <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
+      onload="if(submitted) {
+        window.location='index.html';}"></iframe> 
+      
+      <!-- Update the Google forms URL in action-->
+      <form action="https://docs.google.com/forms/d/e/1FAIpQLSc3e4nm46EpykSmTIWWCLLoq0ELBtae8BO9zGrBHpkC9W9XoQ/formResponse" method="post" target="hidden_iframe" onsubmit="return validateForm(); ">
+  
+        
+        <div class="w3-section">
+          <label>Name</label>
+          <input class="w3-input w3-border" type="text" placeholder="Name" id="name" required name="entry.151846218">
+        </div>
+        <div class="w3-section">
+          <label>Email</label>
+          <input class="w3-input w3-border" type="text" placeholder="Email" id="email" required name="entry.2008990550">
+        </div>
+        <div class="w3-section">
+          <label>whatsapp No</label>
+          <input class="w3-input w3-border" type="text" placeholder="Phone" id="phone" required name="entry.624837424">
+        </div>
+        <div class="w3-section">
+          <label>Location </label>
+          <input class="w3-input w3-border" type="text" placeholder="location" id="loation" required name="entry.2117070532">
+        </div>
+        <div class="w3-section">
+          <label>Quantity of Clothes write no of jeans,shirt,t-shirt </label>
+          <input class="w3-input w3-border" type="text" placeholder="Quantity" id="Quantity" required name="entry.134968462">
+        </div>
+  
+        <div class="offset-md-4 col-md-8">
+            <button type="button" class="btn btn-secondary btn-lg " data-dismiss="modal">Cancel</button>
+            <button type="submit" class="btn btn-primary btn-lg ">Reserve</button>
+        </div>
+        
+      </form>
+  </div>
+  </div>
+  </div>
+      <script type="text/javascript">
+      function validateName() {
+              var name = document.getElementById('name').value;
+              if(name.length == 0) {
+                alert("Name can't be blank") ;
+                return false;
+  
+              }
+              if (!name.match(/^[a-zA-Z]{3,}(?: [a-zA-Z]+){0,2}$/)) {
+                alert("Please enter your correct name") ;//Validation Message
+                return false;
+              }
+              return true;
+            }
+            function validatelocation() {
+              var name = document.getElementById('location').value;
+              if(name.length == 0) {
+                alert("Name can't be blank") ;
+                return false;
+  
+              }
+              if (!name.match(/^[a-zA-Z]{3,}(?: [a-zA-Z]+){0,2}$/)) {
+                alert("Please enter your correct location") ;//Validation Message
+                return false;
+              }
+              return true;
+            }
+            function validateQuantiy() {
+              var name = document.getElementById('Quantity').value;
+              if(name.length == 0) {
+                alert("Name can't be blank") ;
+                return false;
+  
+              }
+              if (!name.match(/^[a-zA-Z]{3,}(?: [a-zA-Z]+){0,2}$/)) {
+                alert("Please enter your correctly") ;//Validation Message
+                return false;
+              }
+              return true;
+            }
+            function validatePhone() {
+              var phone = document.getElementById('phone').value;
+              if(phone.length == 0) {
+                alert("Phone number can't be blank") ;//Validation Message
+                return false;
+              }
+  
+              if(!phone.match(/^[0]?[789]\d{9}$/)) {
+               alert("Please enter a correct phone number") ;//Validation Message
+               return false;
+             }
+  
+             return true;
+  
+           }
+  
+           function validateEmail () {
+  
+            var email = document.getElementById('email').value;
+            if(email.length == 0) {
+              alert("Email can't be blank") ;//Validation Message
+              return false;
+  
+            }
+  
+            if(!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
+              alert("Please enter a correct email address") ;//Validation Message
+              return false;
+  
+            }
+  
+            return true;
+  
+          }
+  
+  
+          function validateForm() {
+            if (!validateName() || !validatePhone() || !validateEmail()) {
+  
+              alert("Form not submitted");//Validation Message
+              return false;
+            }
+            else {
+              submitted=true;
+              return true;
+            }
+          }
+          </script>
+  
+  <!-- End Contact Section -->
+      </div>
+     <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>-->
+    </div>
+  </div>
+</div>
+<!-- reserve modal end -->
 <!--Middle End-->
 <!-- our team-->
 <!--div class="container">
@@ -212,6 +372,9 @@
         <script src="wow.js"></script>
         <script>
           new WOW().init();
+          $("#buttonReservation").click(function(){
+        $('#exampleModal').modal('show');
+    });
           </script>
 
       </body>
