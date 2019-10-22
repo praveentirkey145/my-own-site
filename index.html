@@ -5,6 +5,7 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <link rel="stylesheet" type="text/css" href="animate.css">
         <link rel="stylesheet" href="own.css">
+        <link href="css/style.css" rel="stylesheet">
         <link rel="stylesheet" href="/bootstrap-social/bootstrap-social.css">
         
         <link rel="stylesheet" href="font-awesome.min.css">
@@ -60,42 +61,7 @@
                 </div>
 
 
-<!-- middle body-->
-<div class="container wow  fadeInDown delay-05s">
-  <div class="content" id="middle">
-    <h1 class="h1">Our services</h1>
-  
-      <div class="card-deck">
-        <div class="card bg-warning">
-          <img src="dryy.jpg" class="card-img-top" alt="Dry wash">
-          <div class="card-body">
-            <h5 class="card-title">Dry Wash</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          </div>
-          
-        </div>
-        <div class="card bg-warning">
-          <img src="machine.jpg" class="card-img-top" alt="machine wash">
-          <div class="card-body">
-            <h5 class="card-title">Machine Wash</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-          </div>
-          
-        </div>
-        <div class="card bg-warning">
-          <img src="hand.jpg" class="card-img-top" alt="hand wash">
-          <div class="card-body">
-            <h5 class="card-title">Hand wash</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-          </div>
-          
-        </div>
-      </div>
-      <div id="H2">
-    </div>
 
-  </div>
-</div>
 
 <!-- reserve modal -->
 <!-- Modal -->
@@ -110,143 +76,143 @@
       </div>
       <div class="modal-body">
            <!-- Start Contact Section -->
-            <div class="bg-light ">
+           <div class="bg-dark" style="margin-top: 10px; color:white; padding: 10px;">
             
- <div class="container wow  fadeInUp delay-05s" id="contact">
-    <div class="content" style="max-width:600px">
-      <h4 class="text-center "><b>Book Our Services</b></h4>
-  
-      <script type="text/javascript">var submitted=false;</script>
-      
-      <!--Update the URL for thank you page on form submit -->
-      <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
-      onload="if(submitted) {
-        window.location='index.html';}"></iframe> 
-      
-      <!-- Update the Google forms URL in action-->
-      <form action="https://docs.google.com/forms/d/e/1FAIpQLSc3e4nm46EpykSmTIWWCLLoq0ELBtae8BO9zGrBHpkC9W9XoQ/formResponse" method="post" target="hidden_iframe" onsubmit="return validateForm(); ">
-  
-        
-        <div class="w3-section">
-          <label>Name</label>
-          <input class="w3-input w3-border" type="text" placeholder="Name" id="name" required name="entry.151846218">
-        </div>
-        <div class="w3-section">
-          <label>Email</label>
-          <input class="w3-input w3-border" type="text" placeholder="Email" id="email" required name="entry.2008990550">
-        </div>
-        <div class="w3-section">
-          <label>whatsapp No</label>
-          <input class="w3-input w3-border" type="text" placeholder="Phone" id="phone" required name="entry.624837424">
-        </div>
-        <div class="w3-section">
-          <label>Location </label>
-          <input class="w3-input w3-border" type="text" placeholder="location" id="loation" required name="entry.2117070532">
-        </div>
-        <div class="w3-section">
-          <label>Quantity of Clothes write no of jeans,shirt,t-shirt </label>
-          <input class="w3-input w3-border" type="text" placeholder="Quantity" id="Quantity" required name="entry.134968462">
-        </div>
-  
-        <div class="offset-md-4 col-md-8">
-            <button type="button" class="btn btn-secondary btn-lg " data-dismiss="modal">Cancel</button>
-            <button type="submit" class="btn btn-primary btn-lg ">Reserve</button>
-        </div>
-        
-      </form>
-  </div>
-  </div>
-  </div>
-      <script type="text/javascript">
-      function validateName() {
-              var name = document.getElementById('name').value;
-              if(name.length == 0) {
-                alert("Name can't be blank") ;
-                return false;
-  
-              }
-              if (!name.match(/^[a-zA-Z]{3,}(?: [a-zA-Z]+){0,2}$/)) {
-                alert("Please enter your correct name") ;//Validation Message
-                return false;
-              }
-              return true;
-            }
-            function validatelocation() {
-              var name = document.getElementById('location').value;
-              if(name.length == 0) {
-                alert("Name can't be blank") ;
-                return false;
-  
-              }
-              if (!name.match(/^[a-zA-Z]{3,}(?: [a-zA-Z]+){0,2}$/)) {
-                alert("Please enter your correct location") ;//Validation Message
-                return false;
-              }
-              return true;
-            }
-            function validateQuantiy() {
-              var name = document.getElementById('Quantity').value;
-              if(name.length == 0) {
-                alert("Name can't be blank") ;
-                return false;
-  
-              }
-              if (!name.match(/^[a-zA-Z]{3,}(?: [a-zA-Z]+){0,2}$/)) {
-                alert("Please enter your correctly") ;//Validation Message
-                return false;
-              }
-              return true;
-            }
-            function validatePhone() {
-              var phone = document.getElementById('phone').value;
-              if(phone.length == 0) {
-                alert("Phone number can't be blank") ;//Validation Message
-                return false;
-              }
-  
-              if(!phone.match(/^[0]?[789]\d{9}$/)) {
-               alert("Please enter a correct phone number") ;//Validation Message
-               return false;
-             }
-  
-             return true;
-  
-           }
-  
-           function validateEmail () {
-  
-            var email = document.getElementById('email').value;
-            if(email.length == 0) {
-              alert("Email can't be blank") ;//Validation Message
-              return false;
-  
-            }
-  
-            if(!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
-              alert("Please enter a correct email address") ;//Validation Message
-              return false;
-  
-            }
-  
-            return true;
-  
-          }
-  
-  
-          function validateForm() {
-            if (!validateName() || !validatePhone() || !validateEmail()) {
-  
-              alert("Form not submitted");//Validation Message
-              return false;
-            }
-            else {
-              submitted=true;
-              return true;
-            }
-          }
-          </script>
-  
-  <!-- End Contact Section -->
+            <div class="container  wow  fadeInUp delay-05s">
+               <div class="content col-md-offset-3" style="max-width:600px">
+                 <h4 class="text-center "><b>Book Our Services</b></h4>
+             
+                 <script type="text/javascript">var submitted=false;</script>
+                 
+                 <!--Update the URL for thank you page on form submit -->
+                 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
+                 onload="if(submitted) {
+                   window.location='index.html';}"></iframe> 
+                 
+                 <!-- Update the Google forms URL in action-->
+                 <form action="https://docs.google.com/forms/d/e/1FAIpQLSc3e4nm46EpykSmTIWWCLLoq0ELBtae8BO9zGrBHpkC9W9XoQ/formResponse" method="post" target="hidden_iframe" onsubmit="return validateForm(); ">
+             
+                   
+                   <div class="form-group">
+                     <label for="formGroupExampleInput">Name</label>
+                     <input class="w3-input w3-border" type="text" placeholder="Name" id="name" required name="entry.151846218">
+                   </div>
+                   <div class="form-group">
+                     <label for="formGroupExampleInput1">Email</label>
+                     <input class="w3-input w3-border" type="text" placeholder="Email" id="email" required name="entry.2008990550">
+                   </div>
+                   <div class="form-group">
+                     <label for="formGroupExampleInput2">whatsapp No</label>
+                     <input class="w3-input w3-border" type="text" placeholder="Phone" id="phone" required name="entry.624837424">
+                   </div>
+                   <div class="form-group">
+                     <label for="formGroupExampleInput3">Location </label>
+                     <input class="w3-input w3-border" type="text" placeholder="location" id="loation" required name="entry.2117070532">
+                   </div>
+                   <div class="form-group">
+                     <label for="formGroupExampleInput4">Quantity of Clothes write no of jeans,shirt,t-shirt </label>
+                     <input class="w3-input w3-border" type="text" placeholder="Quantity" id="Quantity" required name="entry.134968462">
+                   </div>
+             
+                   <div class="offset-md-4 col-md-8">
+                       <button type="button" class="btn btn-secondary btn-lg " data-dismiss="modal">Cancel</button>
+                       <button type="submit" class="btn btn-primary btn-lg ">Reserve</button>
+                   </div>
+                   
+                 </form>
+             </div>
+             </div>
+             </div>
+                 <script type="text/javascript">
+                 function validateName() {
+                         var name = document.getElementById('name').value;
+                         if(name.length == 0) {
+                           alert("Name can't be blank") ;
+                           return false;
+             
+                         }
+                         if (!name.match(/^[a-zA-Z]{3,}(?: [a-zA-Z]+){0,2}$/)) {
+                           alert("Please enter your correct name") ;//Validation Message
+                           return false;
+                         }
+                         return true;
+                       }
+                       function validatelocation() {
+                         var name = document.getElementById('location').value;
+                         if(name.length == 0) {
+                           alert("Name can't be blank") ;
+                           return false;
+             
+                         }
+                         if (!name.match(/^[a-zA-Z]{3,}(?: [a-zA-Z]+){0,2}$/)) {
+                           alert("Please enter your correct location") ;//Validation Message
+                           return false;
+                         }
+                         return true;
+                       }
+                       function validateQuantiy() {
+                         var name = document.getElementById('Quantity').value;
+                         if(name.length == 0) {
+                           alert("Name can't be blank") ;
+                           return false;
+             
+                         }
+                         if (!name.match(/^[a-zA-Z]{3,}(?: [a-zA-Z]+){0,2}$/)) {
+                           alert("Please enter your correctly") ;//Validation Message
+                           return false;
+                         }
+                         return true;
+                       }
+                       function validatePhone() {
+                         var phone = document.getElementById('phone').value;
+                         if(phone.length == 0) {
+                           alert("Phone number can't be blank") ;//Validation Message
+                           return false;
+                         }
+             
+                         if(!phone.match(/^[0]?[789]\d{9}$/)) {
+                          alert("Please enter a correct phone number") ;//Validation Message
+                          return false;
+                        }
+             
+                        return true;
+             
+                      }
+             
+                      function validateEmail () {
+             
+                       var email = document.getElementById('email').value;
+                       if(email.length == 0) {
+                         alert("Email can't be blank") ;//Validation Message
+                         return false;
+             
+                       }
+             
+                       if(!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
+                         alert("Please enter a correct email address") ;//Validation Message
+                         return false;
+             
+                       }
+             
+                       return true;
+             
+                     }
+             
+             
+                     function validateForm() {
+                       if (!validateName() || !validatePhone() || !validateEmail()) {
+             
+                         alert("Form not submitted");//Validation Message
+                         return false;
+                       }
+                       else {
+                         submitted=true;
+                         return true;
+                       }
+                     }
+                     </script>
+             
+             <!-- End Contact Section -->
       </div>
      <!-- <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -289,8 +255,203 @@
 </div-->
   
 
- 
+ <!--==========================
+      About Us Section
+    ============================-->
+    <section id="about">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>About Us</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </header>
+
+        <div class="row about-container">
+
+          <div class="col-lg-6 content order-lg-1 order-2">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+
+            <div class="icon-box wow fadeInUp">
+              <div class="icon"><i class="fa fa-shopping-bag"></i></div>
+              <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
+              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+            </div>
+
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
+              <div class="icon"><i class="fa fa-photo"></i></div>
+              <h4 class="title"><a href="">Magni Dolores</a></h4>
+              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            </div>
+
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
+              <div class="icon"><i class="fa fa-bar-chart"></i></div>
+              <h4 class="title"><a href="">Dolor Sitema</a></h4>
+              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
+            <img src="img/about-img.svg" class="img-fluid" alt="">
+          </div>
+        </div>
+
+        <div class="row about-extra">
+          <div class="col-lg-6 wow fadeInUp">
+            <img src="img/about-extra-1.svg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
+            <h4>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h4>
+            <p>
+              Ipsum in aspernatur ut possimus sint. Quia omnis est occaecati possimus ea. Quas molestiae perspiciatis occaecati qui rerum. Deleniti quod porro sed quisquam saepe. Numquam mollitia recusandae non ad at et a.
+            </p>
+            <p>
+              Ad vitae recusandae odit possimus. Quaerat cum ipsum corrupti. Odit qui asperiores ea corporis deserunt veritatis quidem expedita perferendis. Qui rerum eligendi ex doloribus quia sit. Porro rerum eum eum.
+            </p>
+          </div>
+        </div>
+
+        <div class="row about-extra">
+          <div class="col-lg-6 wow fadeInUp order-1 order-lg-2">
+            <img src="img/about-extra-2.svg" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
+            <h4>Neque saepe temporibus repellat ea ipsum et. Id vel et quia tempora facere reprehenderit.</h4>
+            <p>
+             Delectus alias ut incidunt delectus nam placeat in consequatur. Sed cupiditate quia ea quis. Voluptas nemo qui aut distinctio. Cumque fugit earum est quam officiis numquam. Ducimus corporis autem at blanditiis beatae incidunt sunt. 
+            </p>
+            <p>
+              Voluptas saepe natus quidem blanditiis. Non sunt impedit voluptas mollitia beatae. Qui esse molestias. Laudantium libero nisi vitae debitis. Dolorem cupiditate est perferendis iusto.
+            </p>
+            <p>
+              Eum quia in. Magni quas ipsum a. Quis ex voluptatem inventore sint quia modi. Numquam est aut fuga mollitia exercitationem nam accusantium provident quia.
+            </p>
+          </div>
+          
+        </div>
+
+      </div>
+    </section><!-- #about -->
+
+    <!--==========================
+      Services Section
+    ============================-->
+
+    <!--==========================
+      Why Us Section
+    ============================-->
+    <section id="why-us" class="wow fadeIn">
+      <div class="container">
+        <header class="section-header">
+          <h3>Why choose us?</h3>
+          <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</p>
+        </header>
+
+        <div class="row row-eq-height justify-content-center">
+
+          <div class="col-lg-4 mb-4">
+            <div class="card wow bounceInUp">
+                <i class="fa fa-diamond"></i>
+              <div class="card-body">
+                <h5 class="card-title">Corporis dolorem</h5>
+                <p class="card-text">Deleniti optio et nisi dolorem debitis. Aliquam nobis est temporibus sunt ab inventore officiis aut voluptatibus.</p>
+                <a href="#" class="readmore">Read more </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card wow bounceInUp">
+                <i class="fa fa-language"></i>
+              <div class="card-body">
+                <h5 class="card-title">Voluptates dolores</h5>
+                <p class="card-text">Voluptates nihil et quis omnis et eaque omnis sint aut. Ducimus dolorum aspernatur.</p>
+                <a href="#" class="readmore">Read more </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card wow bounceInUp">
+                <i class="fa fa-object-group"></i>
+              <div class="card-body">
+                <h5 class="card-title">Eum ut aspernatur</h5>
+                <p class="card-text">Autem quod nesciunt eos ea aut amet laboriosam ab. Eos quis porro in non nemo ex. </p>
+                <a href="#" class="readmore">Read more </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row counters">
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">274</span>
+            <p>Clients</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">421</span>
+            <p>Projects</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">1,364</span>
+            <p>Hours Of Support</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">18</span>
+            <p>Hard Workers</p>
+          </div>
+  
+        </div>
+
+      </div>
+    </section>
 <!--our team end-->
+<!-- middle body-->
+<div id="middle">
+<div class="container wow  fadeInDown delay-05s">
+  <div class="content" >
+    <h1 class="h1">Our services</h1>
+  
+      <div class="card-deck">
+        <div class="card bg-warning">
+          <img src="dryy.jpg" class="card-img-top " alt="Dry wash">
+          <div class="card-body">
+            <h5 class="card-title">Dry Wash</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          
+        </div>
+        <div class="card bg-warning">
+          <img src="machine.jpg" class="card-img-top" alt="machine wash">
+          <div class="card-body">
+            <h5 class="card-title">Machine Wash</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+          
+        </div>
+        <div class="card bg-warning">
+          <img src="hand.jpg" class="card-img-top" alt="hand wash">
+          <div class="card-body">
+            <h5 class="card-title">Hand wash</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+          
+        </div>
+      </div>
+      <div id="H2">
+    </div>
+
+  </div>
+</div>
+</div>
 <!--start price-->
 
 <!-- end pricing-main -->
@@ -357,7 +518,7 @@
 
     <div id="Copy">
       <div class="copyright">
-        &copy; 2019 Copyright <strong>Param</strong>. All Rights Reserved
+        &copy; 2019 Copyright <strong>Super Laundry</strong>. All Rights Reserved
       </div>
       <div class="credits">
         

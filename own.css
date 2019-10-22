@@ -95,11 +95,12 @@ text-align: center;
 {
   color: aliceblue;
 }
-#copy
+/*#copy
 {
   text-align: center;
   background-color: rgb(6, 183, 236);
-#gap-nav p
+}*/
+#gap-na
 {
   color: aquamarine;
 }
@@ -116,9 +117,11 @@ text-align: center;
 #contact .h4
 {
 
-  color: aquamarine;;
+  color: aquamarine;
 }
-#con
+#middle
 {
-  justify-self: center;
+  background-color: #ecf5ff;
+  padding-bottom: 10px;
 }
+
